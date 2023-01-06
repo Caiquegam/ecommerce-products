@@ -5,7 +5,7 @@
 }
 
 .main-image{
-    width: 400px;
+    width: 435px;
     height: 400px;
 }
 .display-5{
@@ -24,4 +24,15 @@ h4{
     font-family: 'Kumbh Sans', sans-serif;
     color: black;
     font-size: 30px;
+}
+
+.btn-add{
+    background-image: url(./images/icon-cart\ copy.svg);
+    background-repeat: no-repeat ;
+    background-position: 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);;
 }
