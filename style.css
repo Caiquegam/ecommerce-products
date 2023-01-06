@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;800&display=swap');
+
 .nav-link:hover{
-    color: #f52222;
+    color:hsl(26, 100%, 55%);
+}
+
+.main-image{
+    width: 400px;
+    height: 400px;
+}
+.display-5{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: black;
+    font-size: 30px;
 }
