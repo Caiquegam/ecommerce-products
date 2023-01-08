@@ -61,16 +61,20 @@
           <img class="main-image rounded-4" src="./images/image-product-1.jpg" alt="imagem do produto">
           <div class="d-flex pt-5">
             <div class="pe-2">
-              <img src="./images/image-product-1-thumbnail.jpg" alt="produto one" style="width:70px; height:70px; border-radius: 7px;">
+              <img id="prUm" src="./images/image-product-1-thumbnail.jpg" alt="produto um"
+                style="width:70px; height:70px; border-radius: 7px; cursor: pointer;">
             </div>
             <div class="ps-5 pe-0">
-              <img src="./images/image-product-2-thumbnail.jpg" alt="produto one" style="width:70px; height:70px; border-radius: 7px;">
+              <img id="prDois" src="./images/image-product-2-thumbnail.jpg" alt="produto dois"
+                style="width:70px; height:70px; border-radius: 7px; cursor: pointer;">
             </div>
             <div class="ps-5 pe-0">
-              <img src="./images/image-product-3-thumbnail.jpg" alt="produto one" style="width:70px; height:70px; border-radius: 7px;">
+              <img id="prTres" src="./images/image-product-3-thumbnail.jpg" alt="produto três"
+                style="width:70px; height:70px; border-radius: 7px; cursor: pointer;">
             </div>
             <div class="ps-5 pe-0">
-              <img src="./images/image-product-4-thumbnail.jpg" alt="produto one" style="width:70px; height:70px; border-radius: 7px;">
+              <img id="prQuatro" src="./images/image-product-4-thumbnail.jpg" alt="produto quatro"
+                style="width:70px; height:70px; border-radius: 7px; cursor: pointer;">
             </div>
           </div>
         </div>
@@ -85,8 +89,8 @@
             These low-profile sneakers are your perfect casual wear companion. Featuring a
             durable rubber outer sole, they’ll withstand everything the weather can offer.
           </div>
-          <div class="pt-2 pe-2 ps-2 pb-0 d-flex">
-            <h4 class="me-5">
+          <div class=" me-0 pt-2 pe-0 ps-2 pb-0 d-flex">
+            <h4 class="me-3" style="font-weight: 600;">
               $125.00
             </h4>
             <h5 class="p-1 bg-danger-subtle"
@@ -98,8 +102,16 @@
             $250.00
           </h6>
 
-          <div class="row">
-            <button type="button" class="btn-add px-2 py-2 w-50 position-relative start-50">Add to cart</button>
+          <div class="d-flex">
+            <div class="w-25 pe-0 btn-group" role="group">
+              <button id="btnSoma" type="button" class="btn btn-one"
+                style="background-color:hsl(223, 64%, 98%) ; border: none; font-weight: 1000; color: hsl(26, 100%, 55%); ">+</button>
+              <button type="button" class="btn btn-two disabled"
+                style="background-color:hsl(223, 64%, 98%) ; border: none;font-weight: 700; color: black;">0</button>
+              <button id="btnSubtracao" type="button" class="btn btn-three"
+                style="background-color:hsl(223, 64%, 98%) ; border: none; font-weight: 1000; color: hsl(26, 100%, 55%); ">-</button>
+            </div>
+            <button type="button" class="btn-add ms-5 px-2 py-2 w-50 position-relative">Add to cart</button>
           </div>
         </div>
       </div>

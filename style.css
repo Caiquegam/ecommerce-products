@@ -36,3 +36,19 @@ h4{
     border: none;
     background-color: hsl(26, 100%, 55%);;
 }
+#prUm:hover{
+    border: 3px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+}
+#prDois:hover{
+    border: 3px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+}
+#prTres:hover{
+    border: 3px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+}
+#prQuatro:hover{
+    border: 2px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+}
