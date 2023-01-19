@@ -36,19 +36,28 @@ h4{
     border: none;
     background-color: hsl(26, 100%, 55%);;
 }
-#prUm:hover{
-    border: 3px solid hsl(26, 100%, 55%);
-    opacity: 0.5;
+.carousel-item > img{
+   border-radius: 10px;
+   width: auto;
+   height: auto;
+   max-width: 430px;
+   max-height: 430px;
 }
-#prDois:hover{
-    border: 3px solid hsl(26, 100%, 55%);
-    opacity: 0.5;
+.img-carousel{
+  display: inline-flex;  
+  max-width: 80px;
+  max-height: 50px;
 }
-#prTres:hover{
-    border: 3px solid hsl(26, 100%, 55%);
-    opacity: 0.5;
+.img-carousel img{
+    margin: 26px 26px 26px 0;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 20px;
+    width: 88px;
+    height: 88px;
 }
-#prQuatro:hover{
-    border: 2px solid hsl(26, 100%, 55%);
+.img-carousel img:hover{
+    cursor: pointer;
+    border: 3px solid hsl(26, 100%, 55%);
     opacity: 0.5;
 }
